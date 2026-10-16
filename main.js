@@ -9,7 +9,7 @@ const CONFIG = {
 
 const isLive = /^0x[a-fA-F0-9]{40}$/.test(CONFIG.ca);
 const buyUrl = isLive
-  ? `https://pancakeswap.finance/swap?inputCurrency=BNB&outputCurrency=${CONFIG.ca}`
+  ? `https://pancakeswap.finance/swap?outputCurrency=${CONFIG.ca}`
   : "";
 const shownCa = isLive ? CONFIG.ca : "TBA";
 
