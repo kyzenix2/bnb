@@ -4,7 +4,7 @@
    and Buy stays inactive until ca is a real 0x address. */
 const CONFIG = {
   ca: "TBA",
-  xCommunity: "https://x.com/TradingCatBNB",
+  xCommunity: "https://x.com/tradingcat_X",
 };
 
 const isLive = /^0x[a-fA-F0-9]{40}$/.test(CONFIG.ca);
